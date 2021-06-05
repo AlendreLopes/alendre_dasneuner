@@ -2,32 +2,10 @@ version: '3.3'
 services:
   web:
     build: 
-      context: ./alendre
-      dockerfile: Dockerfile
-    container_name: alendre
-    volumes:
-      - ./alendre:/var/www/html/
-    ports:
-      - 8001:80
-  web:
-    build: 
-      context: ./alendre_dasneuner
+      context: .
       dockerfile: Dockerfile
     container_name: alendre_dasneuner
     volumes:
-      - ./alendre_dasneuner:/var/www/html/
+      - .:/var/www/html/
     ports:
       - 8002:80
-  
-  db:
-    container_name: alendre_mysql
-    image: mysql:8.0
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
-    environment: 
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: alendre_dasneuner
-      MYSQL_USER: dev#@_dasneuner#@
-      MYSQL_PASSWORD: dev#@_dasneuner#@324940#@
-    ports:
-        - 6033:3306
