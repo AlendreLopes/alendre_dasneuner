@@ -995,11 +995,11 @@
 		}
 		
 		// Page loader
-		// if (plugins.preloader.length) {
-		// 	loaderTimeoutId = setTimeout(function () {
-		// 		if (!windowReady && !isNoviBuilder) plugins.preloader.removeClass('loaded');
-		// 	}, 2000);
-		// }
+		if (plugins.preloader.length) {
+			loaderTimeoutId = setTimeout(function () {
+				if (!windowReady && !isNoviBuilder) plugins.preloader.removeClass('loaded');
+			}, 2000);
+		}
 
 		// Add custom styling options for input[type="radio"]
 		if (plugins.radio.length) {
