@@ -62,7 +62,6 @@
 			vide: $(".vide_bg"),
 			tiltHover: $('.js-tilt')
 		};
-
 	// Initialize scripts that require a loaded page
 	$window.on('load', function () {
 		// Page loader & Page transition
@@ -198,7 +197,7 @@
 			});
     	}
 	});
-	
+
 	// Initialize scripts that require a finished document
 	$(function () {
 		isNoviBuilder = window.xMode;
@@ -994,7 +993,7 @@
 		if (plugins.copyrightYear.length) {
 			plugins.copyrightYear.html(initialDate.getFullYear());
 		}
-		
+
 		// Page loader
 		if (plugins.preloader.length) {
 			loaderTimeoutId = setTimeout(function () {
@@ -1957,7 +1956,7 @@
 					"style-8": {
 						styles: 'css/style-8.css'
 					}
-					
+
 				}
 			});
 		}
@@ -1995,7 +1994,7 @@
 				$("body").css({'position': 'fixed', 'top': '0', 'left': '0', 'right': '0', 'bottom': '0'});
 			});
 		}
-		
+
 
 		/**
 		 * typedjs
@@ -2015,7 +2014,7 @@
 		 */
 		if (plugins.projectToggle.length) {
 			plugins.projectToggle = $('[data-project-toggle]');
-			
+
 			plugins.projectToggle.on('click', function(event){
 				event.preventDefault();
 				event.stopPropagation();

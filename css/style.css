@@ -1,10 +1,10 @@
 icon-md@charset "UTF-8";
 /*
 * Theme Name: Dasneuner Engenharia
-* 
+*
 * Author: Alexandre Lopes
 * Author URL: https://aferti.eti.br
-* 
+*
 * Trunk version 2.0.0
 *
 * Contexts
@@ -3341,12 +3341,18 @@ textarea.form-input {
 
 #form-output-global {
   position: fixed;
-  bottom: 30px;
-  left: 15px;
+  top: 48%;
+  left: 20%;
+  max-width: 100%;
+  width: 95%;
+  height: 45px;
+  background-color: #e00109;
   z-index: 99999;
   visibility: hidden;
   transform: translate3d(-500px, 0, 0);
   transition: .3s all ease;
+  text-align: center;
+  font-weight: 700;
 }
 
 #form-output-global.active {
@@ -5203,7 +5209,7 @@ html [class*='section-'].section-bottom-0 {
   padding-top: 0;
 }
 
-/** 
+/**
 * Accent Backgrounds
 */
 .bg-primary + .bg-primary {
@@ -9542,14 +9548,14 @@ yx-axis
   }
 }
 
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
   transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -9633,7 +9639,7 @@ yx-axis
   display: block;
 }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -9641,7 +9647,7 @@ yx-axis
   transition: opacity 400ms ease;
 }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {
