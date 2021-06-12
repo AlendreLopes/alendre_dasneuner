@@ -638,7 +638,6 @@
 		}
 
 		/**
-		 * VER ONDE ESTÁ A CHAMADA PARA O AVISO DE ENVIADO
 		 * @desc Attach form validation to elements
 		 * @param {object} elements - jQuery object
 		 */
@@ -1446,7 +1445,6 @@
 		}
 
 		// RD Mailform
-		// AVALIAR
 		if (plugins.rdMailForm.length) {
 			var i, j, k,
 				msg = {
