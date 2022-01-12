@@ -1,4 +1,5 @@
-icon-md@charset "UTF-8";
+/* icon-md@charset "UTF-8"; */
+@charset "UTF-8";
 /*
 * Theme Name: Dasneuner Engenharia
 *
@@ -1628,20 +1629,20 @@ a[href*='tel'], a[href*='mailto'] {
     border-left: 1px solid #d7d7d7;
   }
 }
-
+/*  Here goes brand enterprise */
 .box-double {
   position: relative;
-  width: 60%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/backgrounds/dasneuner_fachada_new.jpg);
+  background-image: url('../images/backgrounds/dasneuner_fachada_new.jpg');
   background-size: auto 100%;
   background-repeat: no-repeat;
   padding-bottom: 76%;
   border-width: 1px;
   border-style: solid;
   border-color: hsl(0, 0%, 71%);
-  box-shadow: 4px 6px 6px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 4px 6px 6px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .box-menu-item {
@@ -1723,7 +1724,7 @@ a[href*='tel'], a[href*='mailto'] {
   left: 0;
   transform: translate(10%, 10%);
   content: "";
-  /* background-image: url(../images/backgrounds/interior-design/about-decoration.jpg); */
+  background-image: url(../images/backgrounds/interior-design/about-decoration.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
